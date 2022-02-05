@@ -18,7 +18,6 @@ function makeGrid(row,column) {
     pixelTable.innerHTML = "";
     for(var i=0;i<=row-1;i++){
         var rowInsertion = pixelTable.insertRow(i);
-        console.log("mallika");
         for(var j=0;j<=column-1;j++){
             var cellInsertion = rowInsertion.insertCell(j);
             colourChange(cellInsertion);
